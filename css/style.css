@@ -23,10 +23,9 @@
 }
 #button-6 {
     background-color: #018BBA;
+    pointer-events: none;
 }
-#button-6:active {
-    transform: none;
-}
+
 .button-all:active {
     transform: scale(.98);
 
