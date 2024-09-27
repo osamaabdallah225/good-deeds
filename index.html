@@ -19,19 +19,19 @@
         <button class="button-all" id="button-1" type="button">سبحان الله <span class="block-all" id="span-1"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-2" type="button">الحمد لله<span class="block-all" id="span-2"></span></button> 
+        <button class="button-all" id="button-2" type="button">الحمد لله <span class="block-all" id="span-2"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-3" type="button">لا إله إلا الله<span class="block-all" id="span-3"></span></button> 
+        <button class="button-all" id="button-3" type="button">لا إله إلا الله <span class="block-all" id="span-3"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-4" type="button">الله أكبر<span class="block-all" id="span-4"></span></button> 
+        <button class="button-all" id="button-4" type="button">الله أكبر <span class="block-all" id="span-4"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-5" type="button">لا حول ولا قوة إلا بالله العلي العظيم<span class="block-all" id="span-5"></span></button> 
+        <button class="button-all" id="button-5" type="button">لا حول ولا قوة إلا بالله العلي العظيم <span class="block-all" id="span-5"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-6" type="button">Total<span class="block-all" id="span-6"></span></button> 
+        <button class="button-all" id="button-6" type="button"><span class="block-all" id="span-6"></span> Count </button> 
     </div>
     
     <button class="button-all" id="rest" type="button">Rest</button>
@@ -73,6 +73,9 @@
         let y = 0 ;
         let t = 0 ;
         
+        if (i>=100) {
+            button1.style.backgroundColor = "black" ;
+        }
 
         button1.addEventListener("click", function() {
              t++ ;
@@ -81,7 +84,9 @@
              span6.innerText = t ;
             this.style.backgroundColor = "green" ;
             button6.style.backgroundColor = "green" ;
-            
+            if (i>=100) {
+            button1.style.backgroundColor = "black" ;
+        }
         })
         button2.addEventListener("click", function() {
              ii++ ;
