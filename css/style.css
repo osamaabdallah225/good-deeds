@@ -65,7 +65,8 @@ i:active {
     .button-all{
         width: 320px;
         height: 70px;
-        font-size: 25px;
+        font-size: 23px;
+        line-height: 1;
      
        
     }
