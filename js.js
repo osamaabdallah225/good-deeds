@@ -26,9 +26,7 @@ let m = 0 ;
 let n = 0 ;
 let t = 0 ;
 
-if (i>=100) {
-    button1.style.backgroundColor = "black" ;
-}
+
 
 button1.addEventListener("click", function() {
      t++ ;
@@ -38,8 +36,9 @@ button1.addEventListener("click", function() {
     this.style.backgroundColor = "#4CB050" ;
 
     if (i>=100) {
-    button1.style.backgroundColor = "black" ;
+    button1.style.backgroundColor = "#958774" ;
 }
+
 })
 button2.addEventListener("click", function() {
      ii++ ;
@@ -47,7 +46,9 @@ button2.addEventListener("click", function() {
      span2.innerText = ii ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
-
+    if (ii>=100) {
+        button2.style.backgroundColor = "#958774" ;
+    }
     
 })
 button3.addEventListener("click", function() {
@@ -56,7 +57,9 @@ button3.addEventListener("click", function() {
      span3.innerText = iii ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
-
+    if (iii>=100) {
+        button3.style.backgroundColor = "#958774" ;
+    }
     
 })
 button4.addEventListener("click", function() {
@@ -65,7 +68,9 @@ button4.addEventListener("click", function() {
      span4.innerText = x ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
-
+    if (x>=100) {
+        button4.style.backgroundColor = "#958774" ;
+    }
     
 })
 button5.addEventListener("click", function() {
@@ -74,7 +79,9 @@ button5.addEventListener("click", function() {
      span5.innerText = y ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
-
+    if (y>=100) {
+        button5.style.backgroundColor = "#958774" ;
+    }
    
 })
 button6.addEventListener("click", function() {
@@ -83,7 +90,9 @@ button6.addEventListener("click", function() {
      span6.innerText = m ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
-
+    if (m>=100) {
+        button6.style.backgroundColor = "#958774" ;
+    }
    
 })
 button7.addEventListener("click", function() {
@@ -92,6 +101,9 @@ button7.addEventListener("click", function() {
      span7.innerText = n ;
      spantotal.innerText = t ;
     this.style.backgroundColor = "#4CB050" ;
+    if (n>=100) {
+        button7.style.backgroundColor = "#958774" ;
+    }
 
    
 })

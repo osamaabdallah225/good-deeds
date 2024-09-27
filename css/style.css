@@ -6,8 +6,8 @@
 }
 
 .button-all{
-    width: 250px;
-    height: 65px;
+    width: 320px;
+    height: 70px;
     font-size: 25px;
     color: white;
     background-color: #FF9700;
@@ -25,9 +25,15 @@
 }
 i {
     position: absolute;
-    top: 23px;
-    right: 10px;
+    top: 24px;
+    right: 20px;
     font-size: 22px;
+    color: white;
+    cursor: pointer;
+
+}
+i:active {
+    transform: scale(1.2);
 
 }
 .button-all:active {
@@ -59,7 +65,7 @@ i {
     .button-all{
         width: 320px;
         height: 70px;
-        font-size: 20px;
+        font-size: 25px;
      
        
     }
