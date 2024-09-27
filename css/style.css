@@ -18,14 +18,18 @@
     cursor: pointer;
    
 }
-#rest {
-    background-color: red; 
-}
+
 #button-total {
     background-color: #018BBA;
     pointer-events: none;
 }
+i {
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    font-size: 22px;
 
+}
 .button-all:active {
     transform: scale(.98);
 

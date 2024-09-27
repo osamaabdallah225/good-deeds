@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="js/js.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,26 +34,16 @@
         <button class="button-all" id="button-6" type="button">استغفر الله العظيم واتوب اليه <span class="block-all" id="span-6"></span></button> 
     </div>
     <div> 
-        <button class="button-all" id="button-7" type="button">اللهُمّ صَلِّ وسلّم وزد وبارك وشرف وعظم على نبينا محمّد <span class="block-all" id="span-7"></span></button> 
+        <button class="button-all" id="button-7" type="button">اللهُمّ صَلِّ وسلّم وزد وبارك على نبينا محمّد <span class="block-all" id="span-7"></span></button> 
     </div>
-    <div> 
+    <div style="position: relative;"> 
         <button class="button-all" id="button-total" type="button"> مجموع التسبيحات <span class="block-all" id="span-total"></span> </button> 
+        <i id="icon" class="fa-solid fa-rotate-right"></i>
+    </div>
+
+
     </div>
     
-    <button class="button-all" id="rest" type="button">Reset</button>
-
-    </div>
-    
-   
-    
-    
-   
-  
-
-
-
-    
-
 
     <script> 
          
@@ -73,8 +63,8 @@
         let span7 = document.getElementById("span-7");
         let buttontotal = document.getElementById("button-total");
         let spantotal = document.getElementById("span-total");
-       
-      
+        
+ 
         
         let i = 0 ;
         let ii = 0 ;
@@ -162,8 +152,8 @@
 
 
 
-        let rest = document.getElementById("rest") ;
-        rest.addEventListener("click", function(){
+        let icon = document.getElementById("icon");
+        icon.addEventListener("click", function(){
             i = 0 ;
             span1.innerText = "" ;
             button1.style.backgroundColor = "#FF9700" ;
@@ -190,6 +180,10 @@
             n = 0 ;
             span7.innerText = "" ;
             button7.style.backgroundColor = "#FF9700" ;
+
+            t = 0 ;
+            spantotal.innerText = "" ;
+            buttontotal.style.backgroundColor = "#018BBA" ;
            
         })
         
