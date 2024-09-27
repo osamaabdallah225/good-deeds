@@ -2,7 +2,9 @@
     
     box-sizing: border-box;
     margin: 0px;
+    
 }
+
 .button-all, #rest{
     width: 250px;
     height: 65px;
@@ -14,14 +16,12 @@
     border: none;
     margin-bottom: 15px;
     cursor: pointer;
-    /* transition-duration: 1s;
-    transition-timing-function: linear;
-    transition-property: transform ; */
+   
 }
 #rest {
     background-color: red; 
 }
-#button-6 {
+#button-total {
     background-color: #018BBA;
     pointer-events: none;
 }
@@ -41,9 +41,9 @@
 }
 .content {
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+   
     padding: 25px 25px 10px;
     box-shadow: 1px 2px 20px 3px #e9e3e3;
     border-radius: 7px;   
