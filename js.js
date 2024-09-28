@@ -1,3 +1,4 @@
+// تعريف ال buttons & span 
 let button1 = document.getElementById("button-1");
 let span1 = document.getElementById("span-1");
 let button2 = document.getElementById("button-2");
@@ -16,7 +17,7 @@ let buttontotal = document.getElementById("button-total");
 let spantotal = document.getElementById("span-total");
 
 
-
+// القيم الاولوية للمتغيرات
 let i = 0 ;
 let ii = 0 ;
 let iii = 0 ;
@@ -25,9 +26,7 @@ let y = 0 ;
 let m = 0 ;
 let n = 0 ;
 let t = 0 ;
-
-
-
+// فانكشن الزر الاول 
 button1.addEventListener("click", function() {
      t++ ;
      i++ ;
@@ -38,7 +37,7 @@ button1.addEventListener("click", function() {
     if (i>=100) {
     button1.style.backgroundColor = "#958774" ;
 }
-
+// فانكشن الزر الثاني 
 })
 button2.addEventListener("click", function() {
      ii++ ;
@@ -49,7 +48,7 @@ button2.addEventListener("click", function() {
     if (ii>=100) {
         button2.style.backgroundColor = "#958774" ;
     }
-    
+    // فانكشن الزر الثالت 
 })
 button3.addEventListener("click", function() {
      iii++ ;
@@ -60,7 +59,7 @@ button3.addEventListener("click", function() {
     if (iii>=100) {
         button3.style.backgroundColor = "#958774" ;
     }
-    
+    // فانكشن الزر الرابع 
 })
 button4.addEventListener("click", function() {
      x++ ;
@@ -70,8 +69,7 @@ button4.addEventListener("click", function() {
     this.style.backgroundColor = "#4CB050" ;
     if (x>=100) {
         button4.style.backgroundColor = "#958774" ;
-    }
-    
+    }  
 })
 button5.addEventListener("click", function() {
      y++ ;
@@ -104,17 +102,8 @@ button7.addEventListener("click", function() {
     if (n>=100) {
         button7.style.backgroundColor = "#958774" ;
     }
-
-   
 })
-
-
-
-
-
-
-
-
+//  فانكشن اعادة القيم والازرار الي حالتها الطبيعية 
 let icon = document.getElementById("icon");
 icon.addEventListener("click", function(){
     i = 0 ;
