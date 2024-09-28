@@ -2,12 +2,14 @@
     
     box-sizing: border-box;
     margin: 0px;
-    
+    user-select: none;
 }
 h3 {
     text-align: center;
     margin: 10px 0px 10px 0px;
     color: rgb(55, 55, 58);
+    font-size: 23px;
+    text-shadow: 1px 2px 3px #ffb100d9;
 }
 
 .button-all{
@@ -72,7 +74,10 @@ i:active {
         height: 62px;
         font-size: 23px;
         line-height: 1;
-     
+    }
+    h3 {
+        margin: 10px 0px 0px 0px;
+        color: rgb(55, 55, 58);
        
     }
 }
